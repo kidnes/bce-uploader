@@ -1,0 +1,16 @@
+{
+    "rules": {
+        "max-line-length": {
+            "options": [120]
+        },
+        "space-in-parens": [2, "always", { "exceptions": ["{}"] }],
+        "whitespace": false,
+        "trailing-comma": false,
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-consecutive-blank-lines": false,
+        "no-console": false
+    }
+}
