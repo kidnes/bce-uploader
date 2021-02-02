@@ -12,11 +12,10 @@ export const command = 'upload';
 export const description = 'Upload files from local.';
 
 export const args: CommandArgs = [
-    ['--cwd [value]', 'override current working directory', process.cwd()],
     ['--endpoint [endpoint]', 'bos endpoint', 'https://bj.bcebos.com'],
     ['--ak <ak>', 'bos ak', ''],
     ['--sk <sk>', 'bos sk', ''],
-    ['--to <to>', 'target bos bucket & path, like: bucket/a/b', ''],
+    ['--to <to>', 'target bos bucket & path, eg: bucket/a/b', ''],
     ['--from <from>', 'upload file source from local path', './dist']
 ];
 

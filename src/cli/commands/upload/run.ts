@@ -43,5 +43,4 @@ export default async (cmd: BosCommandLineArgs): Promise<void> => {
         console.error(error);
         process.exit(1);
     });
-
 };

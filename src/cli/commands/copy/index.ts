@@ -12,7 +12,6 @@ export const command = 'copy';
 export const description = 'Copy files form remote bos.';
 
 export const args: CommandArgs = [
-    ['--cwd [value]', 'override current working directory', process.cwd()],
     ['--endpoint [endpoint]', 'bos endpoint', 'https://bj.bcebos.com'],
     ['--ak <ak>', 'bos ak', ''],
     ['--sk <sk>', 'bos sk', ''],
