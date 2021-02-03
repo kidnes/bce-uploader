@@ -1,6 +1,6 @@
 {
   "name": "bos-uplader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git@github.com:kidnes/bce-uploader.git"
   },
-  "author": "liubin29",
+  "author": "kidnes",
   "license": "MIT",
   "dependencies": {
     "bce-sdk-js": "0.2.9",
@@ -27,5 +27,8 @@
     "@types/semver": "7.1.0",
     "ts-node": "8.6.2",
     "typescript": "3.7.5"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
